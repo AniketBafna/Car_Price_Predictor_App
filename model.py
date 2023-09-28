@@ -12,7 +12,7 @@ pipe = pickle.load(open('pipe.pkl','rb'))
 # Load the Dataset
 car = pd.read_csv('Car_clean.csv')
 
-def main():
+def model():
     # Extract the value from data
     company = sorted(car['Car_Company'].unique())
     year = sorted(car['Car_Year'].unique())
